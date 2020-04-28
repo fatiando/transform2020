@@ -1,4 +1,4 @@
-# From spatial data to gridded products using Verde
+# From scattered data to gridded products using Verde
 
 Material for the [Verde tutorial at Transform 2020](https://sched.co/c7KE).
 
