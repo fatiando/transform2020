@@ -2,6 +2,13 @@
 
 The [Verde tutorial at Transform 2020](https://sched.co/c7KE) 💚
 
+**Instructors:**
+[Leonardo Uieda](https://www.leouieda.com/)<sup>1</sup> and
+[Santiago Soler](https://santisoler.github.io/)<sup>2</sup>
+
+> <sup>1</sup>Department of Earth, Ocean and Ecological Sciences, School of Environmental Sciences, University of Liverpool, UK<br>
+> <sup>2</sup>CONICET, Argentina | Instituto Geofísico Sismológico Volponi, Universidad Nacional de San Juan, Argentina
+
 |         | Info |
 |--------:|:-----|
 | When    | Thursday, June 11 • 08:00 - 11:00 GMT |
@@ -9,13 +16,6 @@ The [Verde tutorial at Transform 2020](https://sched.co/c7KE) 💚
 | YouTube | https://youtu.be/-xZdNdvzm3E |
 | conda environment  | `t20-thu-verde` |
 
-**Instructors:**
-[Leonardo Uieda](https://www.leouieda.com/)<sup>1</sup> and
-[Santiago Soler](https://santisoler.github.io/)<sup>2,3</sup>
-
-> <sup>1</sup>Department of Earth, Ocean and Ecological Sciences, School of Environmental Sciences, University of Liverpool, UK<br>
-> <sup>2</sup>CONICET, Argentina<br>
-> <sup>3</sup>Instituto Geofísico Sismológico Volponi, Universidad Nacional de San Juan, Argentina
 
 ## BEFORE THE TUTORIAL
 
