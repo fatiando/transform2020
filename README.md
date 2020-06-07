@@ -4,10 +4,11 @@ The [Verde tutorial at Transform 2020](https://sched.co/c7KE) 💚
 
 **Instructors:**
 [Leonardo Uieda](https://www.leouieda.com/)<sup>1</sup> and
-[Santiago Soler](https://santisoler.github.io/)<sup>2</sup>
+[Santiago Soler](https://santisoler.github.io/)<sup>2,3</sup>
 
-> <sup>1</sup>Department of Earth, Ocean and Ecological Sciences, School of Environmental Sciences, University of Liverpool, UK<br>
-> <sup>2</sup>CONICET, Argentina | Instituto Geofísico Sismológico Volponi, Universidad Nacional de San Juan, Argentina
+> <sup>1</sup>University of Liverpool, UK |
+> <sup>2</sup>CONICET, Argentina | 
+> <sup>3</sup>Universidad Nacional de San Juan, Argentina
 
 |         | Info |
 |--------:|:-----|
@@ -63,10 +64,61 @@ gridded products. The way there will take us through:
 
 ## Setup
 
-Follow the Transform guidelines. Create a conda env.
-Instructions for setting up your computer will follow.
-There will also be instructions for [Google Colab](https://colab.research.google.com/) or
-[Binder](https://mybinder.org/) in case you want/have to run the code online.
+There are a few things you'll need to follow the tutorial:
+
+1. A working Python intallation (Anaconda or Miniconda)
+2. The Verde tutorial *conda environment* installed
+3. A web browser that works with JupyterLab 
+   (basically anything except Internt Explorer)
+
+To get things setup, please do the following.
+
+**If you have any trouble**, please ask for help in the
+`t20-thu-verde` channel on the Software Underground slack.
+
+**Windows users:** When you see "*terminal*" in the instructions,
+this means the "*Anaconda Prompt*" program for you.
+
+### Step 1
+
+**Follow the general instructions for Transform2020:** http://swu.ng/t20-python-setup
+(there are also YouTube videos of [Windows](https://youtu.be/FdatS_NKVrM)
+and [Linux](https://youtu.be/3ncwbHyZeAg))
+
+This will get you a working Python 3 installation with the `conda` package
+manager. If you already have one, you can skip this step.
+
+### Step 2
+
+**Create the `t20-thu-verde` conda environment:**
+
+1. Download the `environment.yml` file from:
+1. Open a terminal. The following steps should be done in the terminal.
+1. Navigate to the folder that has the downloaded environment file
+   (if you don't know how to do this, take a moment to read [the Software
+   Carpentry lesson on the Unix shell](http://swcarpentry.github.io/shell-novice/)).
+1. Create the conda environment by running `conda env create --file environment.yml` 
+   (this will download and install all of the packages used in the tutorial).
+   
+### Step 3 
+
+**Verify that the installation works:**
+
+1. In a terminal, activate the environment: `conda activate t20-thu-verde`
+1. Then start the Python interpreter: `python` (the following steps will be done in
+   the open Python interpreter)
+1. Import Verde: `import verde as vd`
+1. Check the Verde version: `print(vd.version.full_version)` (should print `v1.5.0`)
+1. Import pyproj: `import pyproj`
+1. Import matplotlib: `import matplotlib.pyplot as plt`
+
+If none of these commands gives an error, then your installtion should be working.
+
+### IF EVERYTHYNG ELSE FAILS
+
+If you really can't get things to work on your computer,
+you can run the code online through Google Colab (you will need a Google account).
+A starter notebook that installs Verde can be found here: https://swu.ng/ea31AO
 
 ## How the tutorial will work
 
