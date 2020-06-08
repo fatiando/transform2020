@@ -3,6 +3,8 @@ import verde as vd
 import numpy as np
 import matplotlib.pyplot as plt
 
+print("Verde version:", vd.version.full_version)
+
 data = vd.datasets.fetch_baja_bathymetry()
 projection = pyproj.Proj(proj="merc", lat_ts=data.latitude.mean())
 proj_coords = projection(data.longitude.values, data.latitude.values)
