@@ -12,11 +12,11 @@ The [Verde tutorial at Transform 2020](https://sched.co/c7KE) 💚
 
 |         | Info |
 |--------:|:-----|
-| When    | Thursday, June 11 • 08:00 - 11:00 GMT |
-| Slack   | [Software Underground](https://softwareunderground.org/) channel `t20-thu-verde` |
-| YouTube | https://youtu.be/-xZdNdvzm3E |
+| When | Thursday, June 11 • 08:00 - 11:00 GMT |
+| Slack (Q&A) | [Software Underground](https://softwareunderground.org/) channel `t20-thu-verde` |
+| Live stream | https://youtu.be/-xZdNdvzm3E |
 | conda environment  | `t20-thu-verde` |
-
+| Verde documentation | https://www.fatiando.org/verde |
 
 ## BEFORE THE TUTORIAL
 
