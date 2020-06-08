@@ -7,7 +7,7 @@ The [Verde tutorial at Transform 2020](https://sched.co/c7KE) 💚
 [Santiago Soler](https://santisoler.github.io/)<sup>2,3</sup>
 
 > <sup>1</sup>University of Liverpool, UK |
-> <sup>2</sup>CONICET, Argentina | 
+> <sup>2</sup>CONICET, Argentina |
 > <sup>3</sup>Universidad Nacional de San Juan, Argentina
 
 |         | Info |
@@ -68,7 +68,7 @@ There are a few things you'll need to follow the tutorial:
 
 1. A working Python intallation (Anaconda or Miniconda)
 2. The Verde tutorial *conda environment* installed
-3. A web browser that works with JupyterLab 
+3. A web browser that works with JupyterLab
    (basically anything except Internt Explorer)
 
 To get things setup, please do the following.
@@ -93,16 +93,16 @@ manager. If you already have one, you can skip this step.
 **Create the `t20-thu-verde` conda environment:**
 
 1. Download the `environment.yml` file from [here](https://raw.githubusercontent.com/fatiando/transform2020/master/environment.yml) (right-click and select "Save page as" or similar)
-1. Make sure that the file is called `environment.yml`. Windows sometimes adds a 
+1. Make sure that the file is called `environment.yml`. Windows sometimes adds a
    `.txt` to the end, which you should remove.
 1. Open a terminal. The following steps should be done in the terminal.
 1. Navigate to the folder that has the downloaded environment file
    (if you don't know how to do this, take a moment to read [the Software
    Carpentry lesson on the Unix shell](http://swcarpentry.github.io/shell-novice/)).
-1. Create the conda environment by running `conda env create --file environment.yml` 
+1. Create the conda environment by running `conda env create --file environment.yml`
    (this will download and install all of the packages used in the tutorial).
-   
-### Step 3 
+
+### Step 3
 
 **Verify that the installation works:**
 
@@ -112,7 +112,7 @@ manager. If you already have one, you can skip this step.
 1. Navigate to the folder where you downloaded `test_install.py`
 1. Run the test script: `python test_install.py`
 1. You should this text in the terminal (the last part of the second line will depend
-   on your system): 
+   on your system):
    ```
    Verde version: v1.5.0
    Downloading file 'baja-bathymetry.csv.xz' from 'https://github.com/fatiando/verde/raw/v1.5.0/data/baja-bathymetry.csv.xz' to '/home/USER/.cache/verde/v1.5.0'.
@@ -122,7 +122,7 @@ manager. If you already have one, you can skip this step.
 [![Output of `test_python.py`.](https://raw.githubusercontent.com/fatiando/transform2020/master/test_install_output.png)](https://raw.githubusercontent.com/fatiando/transform2020/master/test_install_output.png)
 
 If none of these commands gives an error, then your installtion should be working.
-If you get any errors or the outputs look significantly different, 
+If you get any errors or the outputs look significantly different,
 please let us know on Slack.
 
 ### IF EVERYTHYNG ELSE FAILS
@@ -131,10 +131,10 @@ If you really can't get things to work on your computer,
 you can run the code online through Google Colab (you will need a Google account).
 A starter notebook that installs Verde can be found here: https://swu.ng/ea31AO
 
-To save a copy of the Colab notebook to your own account, click on the 
+To save a copy of the Colab notebook to your own account, click on the
 "Open in playground mode" and then "Save to Drive".
-You might be interested in 
-[this tutorial](https://transform2020.sched.com/event/c7Jn/tutorial-using-python-subsurface-tools-no-install-required) 
+You might be interested in
+[this tutorial](https://transform2020.sched.com/event/c7Jn/tutorial-using-python-subsurface-tools-no-install-required)
 for an overview of Google Colab.
 
 ## How the tutorial will work
@@ -152,6 +152,18 @@ time to work on your own data (or another example dataset).
 |  9:20 - 10:00 | Train-test-split, gridding, cross-validation, hyper-parameter optimizationa |
 | 10:00 - 10:10 | Wrap-up: state of the project, future directions, how to get involved |
 | 10:10 - 11:00 | Q&A on Slack, work on your own data, informal chat |
+
+## Data
+
+We'll use some [public domain](https://www.ngdc.noaa.gov/ngdcinfo/privacy.html#disclaimer)
+datasets in the tutorial. The datasets are trackline bathymetry measurements
+from the [NOAA NCEI](https://ngdc.noaa.gov/mgg/geodas/trackline.html).
+
+| Area | File | Download link |
+| ---- | ---- | ------------- |
+| Reykjanes Ridge near Iceland | `data/cd8794.m77t` | https://raw.githubusercontent.com/fatiando/transform2020/master/data/cd8794.m77t |
+| Loihi Seamount in Hawai'i | `data/b00297.m77t` | https://raw.githubusercontent.com/fatiando/transform2020/master/data/b00297.m77t |
+| Wilkes Fracture Zone in the South Pacific | `data/ew9105.m77t` | https://raw.githubusercontent.com/fatiando/transform2020/master/data/ew9105.m77t |
 
 ## License
 
