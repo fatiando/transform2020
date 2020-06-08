@@ -1,0 +1,13 @@
+name: t20-thu-verde
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.7
+  - pip
+  - verde==1.5.0
+  - pooch>=1.1.0
+  - pykdtree
+  - numba
+  - matplotlib
+  - pyproj
