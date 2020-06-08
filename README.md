@@ -92,7 +92,9 @@ manager. If you already have one, you can skip this step.
 
 **Create the `t20-thu-verde` conda environment:**
 
-1. Download the `environment.yml` file from:
+1. Download the `environment.yml` file from [here](https://raw.githubusercontent.com/fatiando/transform2020/master/environment.yml) (right-click and select "Save page as" or similar)
+1. Make sure that the file is called `environment.yml`. Windows sometimes adds a 
+   `.txt` to the end, which you should remove.
 1. Open a terminal. The following steps should be done in the terminal.
 1. Navigate to the folder that has the downloaded environment file
    (if you don't know how to do this, take a moment to read [the Software
@@ -104,21 +106,36 @@ manager. If you already have one, you can skip this step.
 
 **Verify that the installation works:**
 
-1. In a terminal, activate the environment: `conda activate t20-thu-verde`
-1. Then start the Python interpreter: `python` (the following steps will be done in
-   the open Python interpreter)
-1. Import Verde: `import verde as vd`
-1. Check the Verde version: `print(vd.version.full_version)` (should print `v1.5.0`)
-1. Import pyproj: `import pyproj`
-1. Import matplotlib: `import matplotlib.pyplot as plt`
+1. Download the `test_install.py` script from [here](https://raw.githubusercontent.com/fatiando/transform2020/master/test_install.py)
+1. Open a terminal. The following steps should be done in the terminal.
+1. Activate the environment: `conda activate t20-thu-verde`
+1. Navigate to the folder where you downloaded `test_install.py`
+1. Run the test script: `python test_install.py`
+1. You should this text in the terminal (the last part of the second line will depend
+   on your system): 
+   ```
+   Verde version: v1.5.0
+   Downloading file 'baja-bathymetry.csv.xz' from 'https://github.com/fatiando/verde/raw/v1.5.0/data/baja-bathymetry.csv.xz' to '/home/USER/.cache/verde/v1.5.0'.
+   ```
+1. The following figure should pop up:
+
+[![Output of `test_python.py`.](https://raw.githubusercontent.com/fatiando/transform2020/master/test_install_output.png)](https://raw.githubusercontent.com/fatiando/transform2020/master/test_install_output.png)
 
 If none of these commands gives an error, then your installtion should be working.
+If you get any errors or the outputs look significantly different, 
+please let us know on Slack.
 
 ### IF EVERYTHYNG ELSE FAILS
 
 If you really can't get things to work on your computer,
 you can run the code online through Google Colab (you will need a Google account).
 A starter notebook that installs Verde can be found here: https://swu.ng/ea31AO
+
+To save a copy of the Colab notebook to your own account, click on the 
+"Open in playground mode" and then "Save to Drive".
+You might be interested in 
+[this tutorial](https://transform2020.sched.com/event/c7Jn/tutorial-using-python-subsurface-tools-no-install-required) 
+for an overview of Google Colab.
 
 ## How the tutorial will work
 
