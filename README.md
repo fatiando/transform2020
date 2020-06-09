@@ -158,12 +158,14 @@ time to work on your own data (or another example dataset).
 We'll use some [public domain](https://www.ngdc.noaa.gov/ngdcinfo/privacy.html#disclaimer)
 datasets in the tutorial. The datasets are trackline bathymetry measurements
 from the [NOAA NCEI](https://ngdc.noaa.gov/mgg/geodas/trackline.html).
+The data files in [MGD77T format](https://ngdc.noaa.gov/mgg/dat/geodas/docs/mgd77.pdf)
+are stored in the `data` folder of this repository.
 
-| Area | File | Download link |
-| ---- | ---- | ------------- |
-| Reykjanes Ridge near Iceland | `data/cd8794.m77t` | https://raw.githubusercontent.com/fatiando/transform2020/master/data/cd8794.m77t |
-| Loihi Seamount in Hawai'i | `data/b00297.m77t` | https://raw.githubusercontent.com/fatiando/transform2020/master/data/b00297.m77t |
-| Wilkes Fracture Zone in the South Pacific | `data/ew9105.m77t` | https://raw.githubusercontent.com/fatiando/transform2020/master/data/ew9105.m77t |
+| File | Location | Download | MD5 hash |
+| ---- | -------- | -------- | -------- |
+| `ew9105.m77t` | Wilkes Fracture Zone in the South Pacific | https://raw.githubusercontent.com/fatiando/transform2020/master/data/ew9105.m77t | `md5:27a0f501251b9dd5a1413722e1c406ea` |
+| `cd8794.m77t` | Reykjanes Ridge near Iceland | https://raw.githubusercontent.com/fatiando/transform2020/master/data/cd8794.m77t | `md5:48be7f63d020dacdb95116d88e35fc61` |
+| `b00297.m77t` | Loihi Seamount in Hawai'i | https://raw.githubusercontent.com/fatiando/transform2020/master/data/b00297.m77t | `md5:8a6eaadbd732b54f65075c9e18593f82` |
 
 ## License
 
