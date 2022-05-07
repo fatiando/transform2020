@@ -111,7 +111,7 @@ manager. If you already have one, you can skip this step.
 1. Activate the environment: `conda activate t20-thu-verde`
 1. Navigate to the folder where you downloaded `test_install.py`
 1. Run the test script: `python test_install.py`
-1. You should this text in the terminal (the last part of the second line will depend
+1. You should see this text in the terminal (the last part of the second line will depend
    on your system):
    ```
    Verde version: v1.5.0
@@ -121,7 +121,7 @@ manager. If you already have one, you can skip this step.
 
 [![Output of `test_python.py`.](https://raw.githubusercontent.com/fatiando/transform2020/master/test_install_output.png)](https://raw.githubusercontent.com/fatiando/transform2020/master/test_install_output.png)
 
-If none of these commands gives an error, then your installtion should be working.
+If none of these commands gives an error, then your installation should be working.
 If you get any errors or the outputs look significantly different,
 please let us know on Slack at `#t20-thu-verde`.
 
